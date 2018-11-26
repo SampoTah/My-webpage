@@ -1,0 +1,38 @@
+﻿body {
+
+	background-color: ffffff;
+	font-family: palatino linotype;
+	font-size: 16px;
+	color: white;
+	}
+
+
+#header {
+	background-color: #58392c;
+	height: 130px;
+	margin-bottom: 12px;
+	border-radius: 5px;
+	}
+
+
+
+#navbar {
+	background-color: #58392c;
+	height: 50px;
+	margin-bottom: 12px;
+	border-radius: 5px;
+	}
+
+
+.main {
+	background-color: #58392c;
+	margin-bottom: 12px;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 110%;
+}
+
+
+h1{
+	font-size: 200%;
+}
