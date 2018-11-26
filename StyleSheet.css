@@ -10,12 +10,55 @@
 
 
 
-#navbar tr{
-		color: black;
-		padding: 5px;
-		margin-right: 100px;
-		border-right:100px;
+/*#navbar table{
+	background: url("file:///D:/_P00P/Navbar.png") no-repeat;
+	color: white;
+	font-size: 30px;
+	width: 1920px;
+	height: 408px;
+	transform: translate(-8px, -8px);
+	}*/
+
+
+#navbarimage{
+	/*position: fixed;*/
+	transform: translate(-8px, -50px);
 	}
+
+
+
+#navbarbuttons{
+	color: white;
+	list-style-type: none;
+	text-align: center;
+	font-size: 35px;
+	font-weight: 700;
+	/*position: fixed;*/
+	position: absolute;
+	white-space: nowrap;
+	right: -100px;
+	top: 0px
+	}
+
+
+
+#navbarbuttons li{
+	display: inline;
+	margin-right: 190px;
+	}
+
+
+
+#navbarbuttons li a{
+	text-decoration: none;
+	color: white;
+	}
+
+
+#navbarbuttons li a:hover{
+	opacity: 0.6;
+	}
+
 
 
 
@@ -26,6 +69,8 @@
 	padding: 20px;
 	font-size: 110%;
 	}
+
+
 
 
 /*.sidebar {
