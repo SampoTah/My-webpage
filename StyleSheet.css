@@ -4,25 +4,19 @@
 	font-family: palatino linotype;
 	font-size: 16px;
 	color: white;
+	margin: 0px;
+	padding: 0px;
+	overflow-x:hidden
 	}
 
 
 
 
-
-/*#navbar table{
-	background: url("file:///D:/_P00P/Navbar.png") no-repeat;
-	color: white;
-	font-size: 30px;
-	width: 1920px;
-	height: 408px;
-	transform: translate(-8px, -8px);
-	}*/
-
-
 #navbarimage{
 	/*position: fixed;*/
 	transform: translate(-8px, -50px);
+	width: 100%;
+	white-space: nowrap;
 	}
 
 
@@ -68,21 +62,14 @@
 	margin-bottom: 12px;
 	border-radius: 5px;
 	padding: 20px;
-	font-size: 110%;
+	font-size: 100%;
+	transform: translate(-10px, 0px);
+	width: 100vw;
+	white-space: nowrap;
 	}
 
 
 
-
-/*.sidebar {
-	background-color: #58392c;
-	margin: 12px;
-	border-radius: 5px;
-	padding: 20px;
-	font-size: 110%;
-	float: right;
-	width: 200px;
-	}*/
 
 
 h1{
@@ -92,5 +79,15 @@ h1{
 
 #footer{
 	background-color: #58392c;
-	height: 150px;
+	height: 60px;
+	width: 100vw;
+	position: absolute;
+	left: 0px;
+	white-space: nowrap;
+	}
+
+#footer p{
+	position: absolute;
+	left: 20px;
+	bottom: 5px;
 	}
