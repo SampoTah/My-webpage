@@ -5,7 +5,21 @@
 	<head>
 		<title>Portfolio</title>
 		<link type="text/css" rel="StyleSheet" href="StyleSheet.css">
+
+		<script>
+		function validateForm()
+		{
+			if (document.forms["feedbackForm"]["feedbackInput"].value==null || document.forms["feedbackForm"]["feedbackInput"].value=="") {
+				alert("You must write something in order to submit feedback.")
+				return false;
+				}
+			alert("Thank you for your feedback!")
+			return true;
+			}
+			</script>
 		</head>
+
+
 
 	<body>
 	
@@ -29,7 +43,7 @@
 				<th> Table column 3 </th>
 				</tr>
 			<tr>
-				<td> <img src="images/navbar.png" alt_"By azura, by azura, by azura..." width="300" heigh="500"> </td>
+				<td> <img src="images/Adoring_Fan.png" alt_"By azura, by azura, by azura..." width="300" heigh="500"> </td>
 				<td> <img src="images/Adoring_Fan.png" alt_"By azura, by azura, by azura..." width="300" heigh="500"> </td>
 				<td> <img src="images/Adoring_Fan.png" alt_"By azura, by azura, by azura..." width="300" heigh="500"> </td>
 				</tr>
@@ -41,9 +55,9 @@
 			</table>
 		
 		<br><br><br>
-		<form id="feedback">
+		<form id="feedbackForm" onsubmit="return validateForm()">
 			Any feedback would be greatly appreciated. <br>
-			<input type="text" name="feedback" placeholder="Feedback goes here."> <br>
+			<input type="text" name="feedbackInput" placeholder="Feedback goes here."> <br>
 			<input type="submit" value"Submit">
 			</form>
 

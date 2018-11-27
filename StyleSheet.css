@@ -13,7 +13,6 @@
 
 
 #navbarimage{
-	position: absolute;
 	transform: translate(-8px, -70px);
 	width: 100%;
 	white-space: nowrap;
@@ -79,13 +78,34 @@
 
 
 
-#feedback {
+#feedbackForm {
 	padding: 20px;
 	padding-top: 10px;
 	text-align: center;
 	font-size: 28px;
 	background-color: #58392c;
-}
+	}
+
+
+input[type=text] {
+	font-family: palatino linotype;
+	font-size: 16px;
+	font-weight: 550;
+	width: 35%;
+	border-radius: 3px;
+	}
+
+
+input[type=submit] {
+	font-family: palatino linotype;
+	font-size: 40px;
+	font-weight: 650;
+	color: white;
+	background-color: #58392c;
+	border: none;
+	cursor: pointer;
+	transform: translateY(5px);
+	}
 
 
 
