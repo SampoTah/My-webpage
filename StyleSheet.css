@@ -9,7 +9,15 @@
 	overflow-x:hidden
 	}
 
-
+h2 {
+	color: #58392c;
+	font-size: 50px;
+	text-align: center;
+	line-height: 0px;
+	border-bottom: 4px solid;
+	border-top: 4px solid;
+	border-color: #58392c;
+	}
 
 
 #navbarimage{
@@ -56,15 +64,13 @@
 
 
 
-.main {
+#games {
+	color: #000000;
+	margin: auto;
+	width: 100%;
+	text-align: center;
 	background-color: #58392c;
-	margin-bottom: 12px;
-	border-radius: 5px;
-	padding: 20px;
-	font-size: 100%;
-	transform: translate(-10px, 0px);
-	width: 100vw;
-	white-space: nowrap;
+	padding: 30px;
 	}
 
 
@@ -76,6 +82,18 @@
 	text-align: center;
 	}
 
+
+#the3dWork {
+	color: #000000;
+	background-color: #58392c;
+	width: 100%;
+	padding: 40px;
+	margin: auto;
+	}
+
+#the3dWork tr th{
+	text-align: center;
+	}
 
 
 #feedbackForm {
