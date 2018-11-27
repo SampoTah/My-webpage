@@ -13,8 +13,8 @@
 
 
 #navbarimage{
-	/*position: fixed;*/
-	transform: translate(-8px, -50px);
+	position: absolute;
+	transform: translate(-8px, -70px);
 	width: 100%;
 	white-space: nowrap;
 	}
@@ -31,7 +31,7 @@
 	position: absolute;
 	white-space: nowrap;
 	right: -100px;
-	top: 0px
+	top: -5px
 	}
 
 
@@ -72,11 +72,25 @@
 
 #paintingImages {
 	color: #000000;
+	margin: auto;
+	width: 100%;
+	text-align: center;
 	}
 
 
-#footer{
+
+#feedback {
+	padding: 20px;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 28px;
 	background-color: #58392c;
+}
+
+
+
+#footer{
+	background-color: #36231b;
 	height: 50px;
 	width: 100vw;
 	position: absolute;
@@ -87,5 +101,5 @@
 #footer p{
 	position: absolute;
 	left: 20px;
-	bottom: 0px;
+	bottom: -2px;
 	}
