@@ -75,12 +75,11 @@ h2 {
 
 
 
-#paintingImages {
-	color: #000000;
-	margin: auto;
-	width: 100%;
-	text-align: center;
-	}
+table#paintingImages {
+    color: #000000;
+    text-align: left;
+    width: 100vw;
+}
 
 
 #the3dWork {

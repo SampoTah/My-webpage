@@ -2,11 +2,11 @@
 
 <html>
 
-	<head>
-		<title>Portfolio</title>
-		<link type="text/css" rel="StyleSheet" href="StyleSheet.css">
+<head>
+    <title>Portfolio</title>
+    <link type="text/css" rel="StyleSheet" href="StyleSheet.css">
 
-		<script>
+    <script>
 		function validateForm()
 		{
 			if (document.forms["feedbackForm"]["feedbackInput"].value==null || document.forms["feedbackForm"]["feedbackInput"].value=="") {
@@ -16,24 +16,30 @@
 			alert("Thank you for your feedback!")
 			return true;
 			}
-			</script>
+    </script>
 
-			<script>
+    <script>
 				function allowDrop(ev) {
 					ev.preventDefault();
 				}
 
 				function drag(ev) {
 					ev.dataTransfer.setData("text", ev.target.id);
-				}	
+				}
 
 				function drop(ev) {
 					ev.preventDefault();
 					var data = ev.dataTransfer.getData("text");
 					ev.target.appendChild(document.getElementById(data));
 				}
-				</script>
-		</head>
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Video Game Art Portfolio">
+    <meta name="keywords" content="Video, Games, Video-games, Videogames, Kamk, Portfolio, Art, School, Painting, 3d, digital">
+    <meta name="author" content="Sampo Tahvanainen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
 
 
@@ -80,20 +86,20 @@
 
 		<table id="paintingImages">
 			<tr>
-				<th> Table column 1 </th>
-				<th> Table column 2 </th>
-				<th> Table column 3 </th>
+				<th>  </th>
+				<th>  </th>
+				<th>  </th>
 				</tr>
 			<tr>
-				<td> <img src="images/Adoring_Fan.png" alt_"By azura, by azura, by azura..." width="300" heigh="500"> </td>
-				<td> <img src="images/Adoring_Fan.png" alt_"By azura, by azura, by azura..." width="300" heigh="500"> </td>
-				<td> <img src="images/Adoring_Fan.png" alt_"By azura, by azura, by azura..." width="300" heigh="500"> </td>
+				<td> <img src="images/PyreMale.png" alt_"By azura, by azura, by azura..." width="600" height="600"> </td>
+				<td> <img src="images/SwordStudy01.png" alt_"By azura, by azura, by azura..." width="600" height="600"> </td>
+				<td> <img src="images/Wood.png" alt_"By azura, by azura, by azura..." width="350" height="600"> </td>
 				</tr>
-			<tr>
-				<td> <img src="images/Adoring_Fan.png" alt_"By azura, by azura, by azura..." width="300" heigh="500"> </td>
-				<td> <img src="images/Adoring_Fan.png" alt_"By azura, by azura, by azura..." width="300" heigh="500"> </td>
-				<td> <img src="images/Adoring_Fan.png" alt_"By azura, by azura, by azura..." width="300" heigh="500"> </td>
-				</tr>
+            <tr>
+                <td> <img src="images/witch-king.png" alt_"By azura, by azura, by azura..." width="1070" height="600"> </td>
+                <!--<td> <img src="images/Adoring_Fan.png" alt_"By azura, by azura, by azura..." width="300" height="500"> </td>-->
+                <!--<td> <img src="images/" alt_"By azura, by azura, by azura..." width="300" height="500"> </td>-->
+            </tr>
 			</table>
 
 
